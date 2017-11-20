@@ -173,7 +173,7 @@ emp3.api.MapService.prototype.setVisible = function(args) {
   var visible = true;
   if (typeof args.visible == 'boolean') {
     visible = args.visible;
-    // this.properties.visible = args.visible;
+    //this.properties.visible = args.visible;
   }
   // Format the request
   var cmd = {

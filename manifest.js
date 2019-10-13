@@ -1,7 +1,7 @@
 var manifest = {
   emp3: [
     'src/sdk/vendor/tv4.js',
-    'src/sdk/core/emp.load.js',
+    // 'src/sdk/core/emp.load.js', <- missing?
     'src/sdk/core/emp.js',
     'src/sdk/core/emp.util.js',
     'src/sdk/core/emp.util.config.js',
@@ -231,7 +231,7 @@ var manifest = {
     'src/sdk/api/utils/emp3.utils.geoLibrary.js',
     'src/sdk/api/emp3.api.js',
     'src/sdk/api/emp3.api.enums.js',
-    'src/sdk/api/emp3.api.constants.js',
+    // 'src/sdk/api/emp3.api.constants.js',  <-- missing?
     'src/sdk/api/emp3.api.Container.js',
     'src/sdk/api/emp3.api.CameraManager.js',
     'src/sdk/api/emp3.api.LookAtManager.js',
@@ -240,7 +240,7 @@ var manifest = {
     'src/sdk/api/emp3.api.LookAt.js',
     'src/sdk/api/emp3.api.Map.js',
     'src/sdk/api/emp3.api.Overlay.js',
-    'src/sdk/api/emp3.api.Layer.js',
+    // 'src/sdk/api/emp3.api.Layer.js',  <-- missing?
     'src/sdk/api/emp3.api.MapService.js',
     'src/sdk/api/emp3.api.WMS.js',
     'src/sdk/api/emp3.api.WMTS.js',
@@ -248,7 +248,7 @@ var manifest = {
     'src/sdk/api/emp3.api.Feature.js',
     'src/sdk/api/emp3.api.AirControlMeasure.js',
     'src/sdk/api/emp3.api.Point.js',
-    'src/sdk/api/emp3.api.Line.js',
+    // 'src/sdk/api/emp3.api.Line.js',  <-- missing?
     'src/sdk/api/emp3.api.Polygon.js',
     'src/sdk/api/emp3.api.Circle.js',
     'src/sdk/api/emp3.api.Rectangle.js',
@@ -311,8 +311,8 @@ var manifest = {
     'src/sdk/api/events/emp3.api.events.ContainerEvent.js',
     'src/sdk/api/events/emp3.api.events.MapStateChangeEvent.js',
     'src/sdk/api/events/emp3.api.events.FeatureEvent.js',
-    'src/sdk/api/events/emp3.api.events.FeatureAddedEvent.js',
-    'src/sdk/api/events/emp3.api.events.FeatureDeletedEvent.js',
+    // 'src/sdk/api/events/emp3.api.events.FeatureAddedEvent.js', <-- missing?
+    // 'src/sdk/api/events/emp3.api.events.FeatureDeletedEvent.js',  <-- missing?
     'src/sdk/api/events/emp3.api.events.FeatureDrawEvent.js',
     'src/sdk/api/events/emp3.api.events.FeatureEditEvent.js',
     'src/sdk/api/events/emp3.api.events.OverlayUpdatedEvent.js',
@@ -349,17 +349,17 @@ var manifest = {
     "src/mapengine/leaflet/js/typeLibrary/leaflet-eng.typeLibrary.wms.js",
     "src/mapengine/leaflet/js/typeLibrary/leaflet-eng.typeLibrary.wmts.js",
     "src/mapengine/leaflet/js/typeLibrary/leaflet-eng.typeLibrary.EmpBoundary.js",
-    "src/mapengine/leaflet/js/typeLibrary/leaflet-eng.typeLibrary.empObject.js",
-    "src/mapengine/leaflet/js/typeLibrary/leaflet-eng.typeLibrary.DisplayableObject.js",
-    "src/mapengine/leaflet/js/typeLibrary/leaflet-eng.typeLibrary.overlay.js",
-    "src/mapengine/leaflet/js/typeLibrary/leaflet-eng.typeLibrary.feature.js",
+    
+    
+    
+    
     "src/mapengine/leaflet/js/typeLibrary/leaflet-eng.typeLibrary.feature.milstd.js",
     "src/mapengine/leaflet/js/typeLibrary/leaflet-eng.typeLibrary.feature.kml.js",
     "src/mapengine/leaflet/js/typeLibrary/leaflet-eng.typeLibrary.feature.geojson.js",
     "src/mapengine/leaflet/js/typeLibrary/leaflet-eng.typeLibrary.feature.airspace.js",
     "src/mapengine/leaflet/js/typeLibrary/leaflet-eng.typeLibrary.feature.image.js",
     "src/mapengine/leaflet/js/typeLibrary/leaflet-eng.typeLibrary.feature.AOI.js",
-    "src/mapengine/leaflet/js/typeLibrary/leaflet-eng.typeLibrary.wms.js",
+    
     "src/mapengine/leaflet/js/typeLibrary/leaflet-eng.typeLibrary.milstdmodifiers.js",
     "src/mapengine/leaflet/js/typeLibrary/leaflet-eng.typeLibrary.feature.text.js",
     "src/mapengine/leaflet/js/typeLibrary/leaflet-eng.typeLibrary.feature.GeoRectangle.js",
@@ -443,7 +443,7 @@ var manifest = {
     "src/mapengine/cesium/js/lib/cesium/airspaces/enums/TAIS_DATA_TYPE.js",
     "src/mapengine/cesium/js/lib/cesium/airspaces/enums/VISIBILITY_STORES.js",
     "src/mapengine/cesium/js/lib/cesium/airspaces/enums/WIDTH_UNITS.js",
-    "src/mapengine/cesium/js/lib/cesium/airspaces/enums/ALTITUDE_TYPE.js",
+    
     "src/mapengine/cesium/js/lib/cesium/airspaces/enums/AIRSPACE_LEVEL.js",
     "src/mapengine/cesium/js/lib/cesium/airspaces/enums/AIRSPACE_SHAPE_TYPE.js",
     "src/mapengine/cesium/js/lib/cesium/airspaces/enums/AIRSPACE_STATE.js",
